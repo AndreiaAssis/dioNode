@@ -1,9 +1,9 @@
-async function connectToDatabase(user, password){
-    if(user === "naruto" && password === "uzumaki"){
-        console.log("conexão com banco de dados estabelecida.");
-    }else{
-        console.log("Falha de login, não foi possível se conectar ao banco de dados.");
-    }
+import connectToDatabase from "./database/data.js";
+
+async function main(){
+
+   // console.log(process.env.USERDATABASE);
+    await connectToDatabase(process.env.USERDATABASE, process.env.PASSWORDDATABASE);
 }
 
-export default connectToDatabase;
+main();
