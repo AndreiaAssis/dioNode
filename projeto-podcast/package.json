@@ -1,0 +1,15 @@
+{
+  "name": "projeto-podcast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "setup inicial do projeto"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
